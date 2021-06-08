@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
-import Tabletop from "tabletop";
-import axios from "axios";
-import dotenv from "dotenv";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
+import dotenv from 'dotenv';
 function App() {
   dotenv.config();
   const [values, setvalues] = useState();
